@@ -225,11 +225,11 @@ $(function(){
 	$("#dqdj,#dldj").change(function(){
 		fuc();
 	});
-	$(document).scroll(function () {
-		if ($("iframe:last").parent().prev().attr('id') == 'lastOne') {
+	document.addEventListener("touchmove", function(){
+		if ($("iframe:last").parent().prev().attr('class') == 'container') {
 			$("iframe:last").parent().remove();
 		}	
-	});
+	},true);
 })
 </script>
 </head>
@@ -366,7 +366,6 @@ $(function(){
 				</div>
 		</div>
 	</div>
-	<div id="lastOne"></div>
 </body>
 
 </html>
