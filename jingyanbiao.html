@@ -32,6 +32,11 @@ $(function(){
 		html+='<tr><td>'+(i+1)+'级</td><td>'+experice[i]+'</td><td>'+(i+76)+'级</td><td>'+experice[(i+75)]+'</td></tr>'
 	}
 	$("tbody").html(html);
+	document.addEventListener("touchmove", function(){
+		if ($("iframe:last").parent().prev().attr('class') == 'container') {
+			$("iframe:last").parent().remove();
+		}	
+	},true);
 })
 </script>
 </head>
