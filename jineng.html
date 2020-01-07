@@ -16,6 +16,15 @@
 <style>
 	img:not(:first-child){max-width:610px}
 </style>
+<script>
+$(function(){
+	document.addEventListener("touchmove", function(){
+		if ($("iframe:last").parent().prev().attr('class') == 'container') {
+			$("iframe:last").parent().remove();
+		}	
+	},true);
+})
+</script>
 </head>
 <body>
 	<nav class="navbar navbar-default">
