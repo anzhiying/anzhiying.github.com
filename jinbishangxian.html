@@ -31,6 +31,11 @@ $(function(){
 		}
 	}
 	$("tbody").html(html);
+	document.addEventListener("touchmove", function(){
+		if ($("iframe:last").parent().prev().attr('class') == 'container') {
+			$("iframe:last").parent().remove();
+		}	
+	},true);
 })
 </script>
 </head>
