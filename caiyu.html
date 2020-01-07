@@ -148,6 +148,11 @@ $(function(){
 	$("#azy1,#azy2,#azy3").keyup(function(){
 		fuc();
 	});
+        document.addEventListener("touchmove", function(){
+		if ($("iframe:last").parent().prev().attr('class') == 'container') {
+			$("iframe:last").parent().remove();
+		}	
+	},true);
 })
 </script>
 </head>
