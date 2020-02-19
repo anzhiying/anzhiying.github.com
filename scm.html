@@ -1,0 +1,308 @@
+<head>
+    <meta charset="UTF-8">
+    <title>MAERSK</title>
+<style type="text/css">
+    body{
+        text-align:center;
+    }
+    #datas{
+        display:none;
+    }
+    #txt{
+        font-size:300%;
+        width:80%;
+        height:10%;
+        margin-top:10%;
+    }
+    #msg{
+        margin:0 auto;
+        text-align:left;
+        width:80%;
+        border: medium solid #C0C0C0; 
+    }
+	
+    .hlcss5{
+		 margin:0 auto;
+         width:200px; 
+		 height:50px 
+    }
+
+	
+
+</style>
+</head>
+<body>
+ 
+<h1 class="hlcss5" style="float:center; background:#0099FF" font="blue;" >简 写 查 询</h1>
+ 
+
+<form action="" method="post">
+<!-- 搜索框 -->   
+<input type="text" id='txt' />
+</form>
+<!-- 模糊查询结果显示框 -->
+<div id="msg"></div>
+ 
+<!-- 查询数据 -->
+<div id="datas">
+@@##GSC       Global Service Center                                   全球服务中心
+@@##GCA       Greater China Area                                      大中华
+@@##NEA       North East Asia                                         东北亚（日韩）
+@@##NAM       North America                                           北美航线                               
+@@##LAM       Lartin America                                          拉美                                 
+@@##EUR       Europe                                                  欧洲                                 
+@@##AFR       Africa                                                  非洲                                 
+@@##WCA       West Central Asia                                       中西亚                                
+@@##APA       Asia Pacific Area                                       亚太                                 
+@@##FEA		  Far East Area                                           远东地区                               
+@@##FIN       Finance                                                 融资                                 
+@@##MAA       Chennai                                                 金奈                                 
+@@##BLR       Bangalore                                               班加罗尔                               
+@@##PNQ       Pune                                                    普纳                                 
+@@##BOM       Mumbai                                                  孟买                                 
+@@##CGD       Chengdu                                                 成都                                 
+@@##MNL       Manila                                                  马尼拉                                
+@@##RR        Rail                                                    铁路运输                               
+@@##TRK       Truck                                                   卡车运输                               
+@@##BCO       Beneficical Cargo Owner                                 物权所有人                              
+@@##FMCG      Fast Moving Consumer Goods                              快速消费品                              
+@@##EBIT      Earning Before Interest Tax                             税前收益                               
+@@##VOCC      Vessel Operating Common Carrier                         承运人（有自己的船）                         
+@@##NVOCC     Non-Vessel Operating Common Carrier                     无船承运人                              
+@@##CS        Customer Service                                        客服                                 
+@@##OPS       Operations                                              操作                                 
+@@##ADM       Administration                                          行政管理                               
+@@##AMS       Automated Manifest System                               自动舱单系统                             
+@@##AMC       Associated Merchandising Corporation                    联合销售公司                             
+@@##AR        Account receivable                                      应收账款                               
+@@##AP        Account payerable                                       应付账款                               
+@@##ASAP      As soon as possible                                     尽快                                 
+@@##ASI       Asia                                                    亚洲                                 
+@@##ASN       Advanced shipping notice                                预先发货清单                             
+@@##ATTN      Attention                                               注意                                 
+@@##AWB       Air waybill                                             空运单                                
+@@##B/L       Bill of lading                                          海运单                                
+@@##B/N       Bumping Notice                                          碰撞通知                               
+@@##BA        Business Address                                        商务地址                               
+@@##BE CODE   Business Entity Code                                    企业代码                               
+@@##BTW       By the way                                              顺便说说                               
+@@##C/S       Container Stuffing                                      集装箱装箱，装箱，装柜                        
+@@##CBM       Cubic Meter                                             立方米                                
+@@##CFR       Cost and Freight                                        成本加运费                              
+@@##CFS       Container freight station                               集装箱货运站                             
+@@##CIF       Cost, Insurance and Freight                             成本加保险费加运费                          
+@@##CIP       Carriage and Insurance paid to                          运费及保险费付至                           
+@@##CLP       Container load plan                                     装箱单                                
+@@##CLR       Container Load Result                                   集装箱装箱结果                            
+@@##CMDU      CMA-CGM                                                 法国达飞海运集团                           
+@@##CNEE      Consignee                                               收货人，顾客                             
+@@##CNTR      Container                                               集装箱                                
+@@##COB       Close of business                                       业务终止                               
+@@##COD       Change of destination                                   目的地变更                              
+@@##COO       Certificate of Origin                                   原产地证明                              
+@@##COV       Change of vessel                                        变更船舶                               
+@@##CPT       Carrier Paid To                                         运费付至                               
+@@##CTN       Carton                                                  箱数                                 
+@@##CUS       Customer service function                               客户服务功能                             
+@@##CY        Container yard                                          集装箱堆场                              
+@@##D/N       Debit note                                              借记通知单                              
+@@##D/R       Dock Receipt                                            码头收据                               
+@@##DC        Distribution Center                                     配送中心                               
+@@##DDN       Document delay notice                                   文档延迟通知                             
+@@##DDP       Delivered Duty Paid                                     完税后交货                              
+@@##DDU       Delivered Duty Unpaid                                   未完税交货                              
+@@##DOC       Documentation                                           文件                                 
+@@##EDI       Electronic data interchange                             电子信息交换                             
+@@##EGLV      Evergreen Marine Corp                                   长荣海运公司                             
+@@##EIR        Equipment Interchange Receipt                          集装箱设备交接单                           
+@@##ESD       Earliest Start Date                                     采购单最早发送日期                          
+@@##ESOP      Electronic standard operation procedure                 电子标准操作流程                           
+@@##ETA       Estimated time of arrival                               预计到港时间                             
+@@##ETD       Estimated time of departure                             预计离港时间                             
+@@##FACT      Finance and Accounting for container transportation     集装箱运输财务会计                          
+@@##FAS       Free Alongside Ship                                     船边交货                               
+@@##FCA       Free carrier                                            货交承运人                              
+@@##FCL       Full container load                                     整装集装箱                              
+@@##FCR       Forwarder's cargo receipt                               货运代理货物收据                           
+@@##FEU       Forty-feet equivalent unit                              四十英尺柜                              
+@@##FOB       Free on board                                           船上交货                               
+@@##FOO       Fuzhou                                                  福州港                                
+@@##FYI       For your information                                    供您参考                               
+@@##G.W       Gross weight                                            毛重（货物）                             
+@@##GCA       Great China Area                                        大中华区                               
+@@##GUA       Guangzhou                                               广州港                                
+@@##H.T.S     Harmonized tariff system                                统一关税系统                             
+@@##HAWB      House Air Way Bill                                      空运分提单                              
+@@##HB/L      House bill of lading                                    货代提单                               
+@@##HKG       Hongkong                                                香港                                 
+@@##HLCU      Hapag-lloyd Container Line                              赫伯罗德海运有限公司                         
+@@##HSWB      House Sea Way Bill                                      货代海运提单                             
+@@##ICB       Inter company billing                                   公司间账单                              
+@@##IEL       Import/Export Logistics                                 进/出口物流                             
+@@##INCOTERMS International Commercial Terms                          国际商务术语                             
+@@##INV       Invoice                                                 发票                                 
+@@##IPI       Inter Point Intermidel                                  内陆点的综合联运                           
+@@##JPN       Japan                                                   日本                                 
+@@##JV        Joint-Venture                                           合资                                 
+@@##KAO       Kaohsiung                                                台湾高雄市                             
+@@##KCM       Key Client Management                                   重要客户管理                             
+@@##KGS       Kilograms                                               千克/公斤                              
+@@##KOR       Korea                                                   韩国                                 
+@@##L/C       Letter of credit                                        信用证                                
+@@##L/G       Letter of guarantee                                     银行保函                               
+@@##LCL       Less than container load                                拼箱货/散货出运                           
+@@##LOG*IT    Logistics Information Technology System                 公司内部的系统，用来储存客人的信息和PO资料等            
+@@##LSD       Latest start date                                       最晚的开始时间                            
+@@##LSS       Landside service                                        陆地服务                               
+@@##MAEU      Maersk Line                                             马士基航运公司                            
+@@##MAWB      Master Air waybill                                      主航空运单                              
+@@##MCC       Multiple country consolidation                          多国合并                               
+@@##MLOG      Maersk Logistics                                        马士基物流                              
+@@##MODS      Maersk Operation Data System                            马士基运营数据系统                          
+@@##MSC       Mediterranean Shipping Company                          地中海航运公司                            
+@@##MSL       Maersk Sealand                                          马士基海陆有限公司                          
+@@##N/A       Not available                                           无法使用                               
+@@##NEO       New employee orientation                                新员工入职培训                            
+@@##NKG       Nanjing                                                 南京                                 
+@@##NW        Net weight                                              净重                                 
+@@##OBL       Original/Ocean bill of lading                           海运提单                               
+@@##OOCL      Orient Overseas Container Line                          东方海外集装箱运输公司                        
+@@##OT        Over time                                               超时                                 
+@@##OTHC      Origin terminal handling charge                         产地来源码头处理费                          
+@@##OTI       Ocean Transportation Intermediary                       远洋运输中介                             
+@@##P&L       Profit and Loss                                         利润和损失                              
+@@##P/A       Pre-advice                                              预先通知书                              
+@@##P/C       Prepaid/collect                                         预付/到付                              
+@@##P/L       Packing list                                            装箱单                                
+@@##PA        Personal Address or Pre-advice                          个人地址和预先通知                          
+@@##PCS       Pieces                                                  件                                  
+@@##PO        Purchase order                                          订单                                 
+@@##POD       Port of discharge                                       卸货港                                
+@@##POD       Place of delivery                                       交货地点                               
+@@##POL       Place of loading                                        装货地点                               
+@@##POR       Place of receipt                                        收货地点                               
+@@##PRS       South China                                             华南地区                               
+@@##PSW       Pacific Southwest                                       西南太平洋                              
+@@##Q&A       Questions and answers                                   问答                                 
+@@##QRG       Quick Reference Guide                                   快速参考指南                             
+@@##ROE       Rate of exchange                                        汇率                                 
+@@##RTP       Requisition to pay                                      付款申请                               
+@@##S/A       Shipping advice                                         装船通知                               
+@@##S/I       Shipping instruction                                    装船指示                               
+@@##S/O       Shipping order                                          订舱单                                
+@@##S/W       Shipping window                                         出货期                                
+@@##SCM       Supply chain management                                 供应链管理                              
+@@##SGH       Shanghai                                                上海                                 
+@@##SOP       Standard operation procedure                            标准操作流程                             
+@@##SWB       Seaway bill                                             海运单                                
+@@##SZH       Shenzhen                                                深圳                                 
+@@##THC       Terminal handling charge                                码头操作费                              
+@@##TRM       Terminal                                                港口                                 
+@@##TST       Qingdao                                                 青岛                                 
+@@##TWN       Taiwan                                                  台湾                                 
+@@##UID       Unique Identification                                   唯一识标                               
+@@##VAS       Value-added service                                     增值服务                               
+@@##VOY       Voyage                                                  航次                                 
+@@##VSL       Vessel                                                  船舶                                 
+@@##WHS       Warehouse                                               仓库                                 
+@@##WND       Warehousing & distribution                              仓储配送                               
+@@##XIM       Xiamen                                                  厦门                                 
+@@##YAT       Yantian                                                 盐田                                 
+@@##YICT      Yantian international container terminal Ltd            盐田国际集装箱码头有限公司                      
+@@##YTD       Year to date                                            至今                                 
+@@##SHIPPR    Shipper                                                 卖家                                 
+@@##ATA       Actual Time of Arrival                                  实际到达时间                             
+@@##ATD       Actual Time of Departure                                实际离开时间                             
+@@##SOP       Standard Operating Procedure                            标准操作流程                             
+@@##IOP       Interal Operating Procedure                             内部操作流程                             
+@@##FO        Frontline Office                                        前线客服                               
+@@##CHB       Customs House Brokerage                                 报关行                                
+@@##FFE       Forty-foot Equivalent Unit                              四十尺柜子单位                            
+@@##EQU       Equipment                                               柜子                                 
+@@##PLR       Place of Receipt                                        收货地                                
+@@##PLD       Place of Delivery                                       送货地                                
+@@##POL       Port of Loading                                         装货港                                
+@@##20 GP     20 Gerneral Purpose                                     20尺货柜（普遍用途）                        
+@@##T/T       Transit Time                                            航行时间                               
+@@##40 GP     40 Gerneral Purpose                                     40尺货柜（普遍用途）                        
+@@##40 HC/HQ  40 High Cube                                            40尺高柜                              
+@@##IMO       International Maritime Organization                     国际海运组织                             
+@@##DG        Dangerous Goods                                         危险品                                
+@@##OOG       Out of Gauge                                            超限                                 
+@@##CSC       Container Safety Convention                             集装箱安全条约                            
+@@##CBM       Cubic Meter                                             立方米                                
+@@##CFS       Container Freight Station                               集装箱货运站                             
+@@##SD        Store Door                                              到门服务                               
+@@##D & D     Demurrage and Detention                                 滞期费和滞留费                            
+@@##DO        Delivery Order                                          交货单                                
+@@##SOB       Shipped On Board                                        已装船                                
+@@##RFS       Received for Shipment                                   收到待运货物                             
+@@##A/N       Arrival Notice                                          到货通知                               
+@@##Q & A     Questions and Answers                                   问答                                 
+@@##SLA       Service Level Agreement                                 服务协议                               
+@@##PKT       Process Knowledge Test                                  流程知识测试                             
+@@##OKR       Objectives and Key Results                              目标和主要成果                            
+@@##BKG       Booking                                                 订舱                                 
+@@##UID       Unique Identification                                   唯一认证                               
+@@##L & S     Logistics & Supply Chain                                物流和供应链                             
+@@##SKU       Stock Keeping Unit                                      存货单位                               
+@@##CSO       Customer Service Office                                 客服办公室                              
+@@##BE        Business Entity                                         企业实体                               
+@@##ISF       Importer Security Filing                                进口商安全文件                            
+@@##2PL       2nd Party Logistics                                     第二方物流                              
+@@##3PL       3rd Party Logistics                                     第三方物流                              
+@@##4PL       4th Parth Logistics                                     第四方物流                              
+@@##E2E       End To End                                              端到端                                
+@@##DC        Distribution Center                                     集散中心                               
+@@##EXW       EX-Works                                                工厂交货                               
+@@##DAP       Delivered At Place                                      指定地点交货                             
+@@##DPU       Delivered at Place Unloaded                             卸货之后交货                             
+@@##ICC       International Chamber of Commerce                       国际商会                               
+@@##TAT       Turn Time                                               运转时间                               
+@@##VCP       Vendor Compliance Program                               供应商管理项目，有SCM,卖家和买家共同参与，旨在提高供应链的效率等。
+@@##GBI       Generic Booking Interface                               通用数据交接系统                           
+@@##VDR       Vedor                                                   供应商                                
+@@##HQ        Head Quarter                                            总部                                 
+@@##TEU       Twenty Equivalent Unit                                  20尺柜子单位                            
+@@##CBM       Cubic Meters                                            立方米                                
+@@##DN        Delivery Notice                                         送货通知                               
+@@##BC        Booking Confirmation                                    订舱确认通知书                            
+@@##CLP       Container Loading Plan                                  装箱计划                               
+@@##CLR       Container Loading Result                                装货结果                               
+@@##ASN       Advance Shipping Notice                                 提前运货通知                             
+@@##CHA       Customs House Agent                                     报关行代理                              
+@@##KPI       Key Performance Indicator                               关键绩效指标,即工作目标                       
+@@##C/B       Carrier Booking                                         承运人订舱                              
+@@##FCR       Forwarders Cargo Receipt                                货代货物收据                             
+@@##CI        Commercial Invoice                                      商业发票                               
+@@##PL        Packing List                                            装箱单                                
+@@##C/S       Container Stuffing                                      集装箱装货                              
+@@##
+</div>
+		
+<script type="text/javascript">  
+    function handle(){  
+        var data = datas.split("@@##");
+        var word = document.getElementById('txt').value.toUpperCase();
+        var value = "";
+        for(var i = 1;i < data.length;i++){
+            if(word!="" && data[i].match(word+".*") != null){
+                value += "<li οnclick=add('"+ data[i] +"') >" + data[i] + "</li><br/>";
+            }
+        }       
+        document.getElementById('msg').innerHTML=value;
+    } 
+    function add(city){
+        document.getElementById('txt').value=city;
+    }
+    if(/msie/i.test(navigator.userAgent))    
+        {document.getElementById('txt').onpropertychange=handle   
+    } else{  
+        document.getElementById('txt').addEventListener("input",handle,false);   
+    }
+    var datas = document.getElementById('datas').innerHTML;
+ 
+</script>  
+ 
+</body>
+</html>
